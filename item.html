@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Item</title>
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/item.css">
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="header-top">
+            <a href="index.html" class="template">Template</a>
+            <a href="index.html" class="template-mobile">TL</a>
+            <div class="header-top-right">
+                <a href="#" class="sign-up">Email sign up</a>
+                <div>
+                    <a href="shopping-bag.html" class="bag">
+                        Bag &pound;<span class="bag-money"></span> (<span id="bag-item-count">0</span>)
+                    </a>
+                    <span class="menu-btn menu-closed-btn" id="menuBtn"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-nav-container mobile-menu-not-active">
+            <div class="nav-wrapper">
+                <nav>
+                    <a href="#">Women</a>
+                    <a href="#">Men</a>
+                    <a href="#">Handbags</a>
+                    <a href="#">Accessories</a>
+                    <a href="#">Sale</a>
+                    <a href="#">New Arrival</a>
+                    <a href="#">Clearance</a>
+                    <a href="#">Store Locator</a>
+                </nav>
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="Style Name" class="">
+                <button type="submit" class="header-search-btn"></button>
+            </div>
+        </div>
+    </header>
+</div>
+<!--header end-->
+
+<!--breadcrumbs-->
+<div class="container">
+    <div class="bread-crumbs-container">
+        <a href="catalog.html" class="bread-crumbs">&lt; Back to catalog</a>
+    </div>
+</div>
+<!--breadcrumbs-->
+
+<!--main-->
+<main class="container">
+    <div class="item-block">
+        <div class="item-gallery">
+            <div class="main-img">
+                <!--item-main-image from js-->
+            </div>
+            <div id="thumbnails-wrapper" class="thumbnail">
+                <!--item thumbnail from js-->
+            </div>
+        </div>
+        <div class="item-text-block">
+            <h3 class="item-name"></h3>
+            <p class="item-text" id="item-text"></p>
+            <p class="item-price" id="item-price"></p>
+            <form action="">
+            <div class="item-size">
+                <h5 class="item-property">Size:</h5>
+                <ul>
+                    <!--item-size from js-->
+                </ul>
+            </div>
+            <div class="item-color">
+                <h5 class="item-property">Color:</h5>
+                <ul>
+                    <!--item-color from js-->
+                </ul>
+            </div>
+
+            <div class="button-container">
+                <button class="add-btn add-to-bag" type="submit" value="Add to bag">Add to bag</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</main>
+<!--main-->
+<!--banner-->
+<div class="banners-container">
+    <div class="banner banner-first">
+        <a href="item.html">
+            <img src="img/banners/catalog_adidas_blue.jpg" alt="Adidas">
+        </a>
+    </div>
+    <div class="banner banner-second">
+        <a href="catalog.html">
+            <img src="img/banners/catalog_repair_patches.jpg" alt="Caps">
+        </a>
+    </div>
+    <div class="banner-third tablet-banner">
+        <a href="catalog.html">
+            <img src="img/banners/tablet_bag.jpg" alt="Bag">
+        </a>
+    </div>
+</div>
+
+<!--footer-->
+<div  class="top-footer-container">
+    <footer>
+        <div class="top-footer ">
+
+            <div class="top-left-block clearfix">
+                <div class="quick-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="links-list">
+                        <li><a href="#">Store locator</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Size guide</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="customer-care">
+                    <h3 class="footer-heading">Customer Care</h3>
+                    <ul class="links-list">
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Track my order</a></li>
+                        <li><a href="#">Return policy</a></li>
+                        <li><a href="#">Shipping &amp; delivery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-right-block clearfix">
+                <div class="questions-block">
+                    <h3 class="footer-heading">Questions</h3>
+                    <p class="contacts"><img src="img/icons/icon_twitter.png" alt="twitter-icon">Tweet us <span>@template</span></p>
+                </div>
+                <div class="order-block">
+                    <h3 class="footer-heading">Order by phone</h3>
+                    <p class="contacts">8-800-409-47-12</p>
+                </div>
+                <div class="delivery-block">
+                    <p>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5
+                        days.
+                    </p>
+                    <img src="img/icons/icon_facebook.png" alt="facebook-icon">
+                    <img src="img/icons/icon_twitter.png" alt="twitter-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<footer>
+    <div class="bottom-footer">
+
+        <div class="trademark">
+            <span>&copy; 2010-2015, The Template Group inc.</span>
+        </div>
+        <div class="share">
+            <span>Share</span>
+            <button type="button" class="share-button" value="1 437">1 437</button>
+        </div>
+        <div class="nav-footer-wrapper">
+            <nav class="footer-navigation">
+                <a href="#">Legal notice</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Site map</a>
+            </nav>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="node_modules/lodash/lodash.min.js"></script>
+<script src="data/catalog.js"></script>
+<script src="js/item.js"></script>
+
+</body>
+</html>
